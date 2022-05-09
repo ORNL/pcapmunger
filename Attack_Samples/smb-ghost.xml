@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<pcapData>
+  <pcap file="smb-ghost.pcap">
+    <filters>
+      <filter destIP="10.3.0.35" destPort="445" duration="5.23" endTime="1645048176.29" protocol="TCP" sourceIP="10.3.3.30" sourcePort="32990" startTime="1645048171.06">
+        <label value="smb-ghost"/>
+        <category value="unknown"/>
+        <traffic packetCount="3377"/>
+        <success value="True"/>
+      </filter>
+    </filters>
+  </pcap>
+</pcapData>

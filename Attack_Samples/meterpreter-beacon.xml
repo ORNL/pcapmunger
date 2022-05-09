@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<pcapData>
+  <pcap file="meterpreter-beacon.pcap">
+    <filters>
+      <filter destIP="10.3.0.5" destPort="61358" duration="5.26164984" endTime="1645039787.98" protocol="TCP" sourceIP="10.1.98.23" sourcePort="8080" startTime="1645039782.72">
+        <label value="meterpreter-beacon"/>
+        <category value="unknown"/>
+        <traffic packetCount="539"/>
+        <success value="True"/>
+      </filter>
+    </filters>
+  </pcap>
+</pcapData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<pcapData>
+  <pcap file="remcos-beacon.pcap">
+    <filters>
+      <filter destIP="10.3.0.39" destPort="51897" duration="0.09" endTime="1645039669.93" protocol="TCP" sourceIP="10.1.90.48" sourcePort="2404" startTime="1645039669.84">
+        <label value="meterpreter-beacon"/>
+        <category value="unknown"/>
+        <traffic packetCount="147"/>
+        <success value="True"/>
+      </filter>
+    </filters>
+  </pcap>
+</pcapData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<pcapData>
+  <pcap file="salt-stack.pcap">
+    <filters>
+      <filter destIP="10.3.0.32" destPort="4506" duration="0.03" endTime="1645039485.36" protocol="TCP" sourceIP="10.1.57.154" sourcePort="58690" startTime="1645039485.33">
+        <label value="salt-stack"/>
+        <category value="unknown"/>
+        <traffic packetCount="376"/>
+        <success value="True"/>
+      </filter>
+    </filters>
+  </pcap>
+</pcapData>

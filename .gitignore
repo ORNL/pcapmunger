@@ -1,0 +1,6 @@
+.DS_STORE
+*.log*
+logs/*
+MungedTrainingSamples/*
+__pycache__
+*.pyc

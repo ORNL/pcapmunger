@@ -1,0 +1,21 @@
+{
+    "PcapMunger": {
+      "RawTrainingSamples": "./Attack_Samples",
+      "SelectedNormalSamples": "./Background_Traffic_Samples",
+      "MungedTrainingSamples": "./MungedTrainingSamples",
+      "IPRanges": [
+        "10.3.0.0/16"
+      ],
+      "DNS": "160.0.0.1",
+      "Gateway": "160.0.0.2",
+      "Source": "*",
+      "Type": "*",
+      "Padding": 15000,
+      "LogDir": "./logs",
+      "LogLevel":"debug",
+      "NumMergesPerAttack": 2,
+      "NumMungerThreads": 1
+
+  }
+
+}
